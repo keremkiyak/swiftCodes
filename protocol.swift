@@ -10,7 +10,12 @@ import Foundation
 protocol Vehicle{
     var numberOfWheels : Int{get}
     var speed : Double{get set}
-    
+    //{ get set } belirteci, bir özellik veya property'nin okunabilir ve yazılabilir olacağını belirtir. 
+    //Bu, özellik değerlerinin hem get hem de set edilebileceği anlamına gelir.
+   //get sadece özelliğin değerini döndürürken set, özelliğin değerini ayarlamaya izin verir.
+
+
+get sadece özelliğin değerini döndürürken set, özelliğin değerini ayarlamaya izin verir.
     func start()
     func stop()
 }
